@@ -1,0 +1,14 @@
+package br.com.treinaweb.algoritmo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int[] numeros = new int[5];
+		numeros[0] = 30;
+		System.out.println(numeros[0]);
+		
+
+	}
+
+}
