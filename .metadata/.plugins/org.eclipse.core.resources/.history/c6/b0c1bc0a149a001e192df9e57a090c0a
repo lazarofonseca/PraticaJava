@@ -1,0 +1,43 @@
+package br.com.treinaweb.algoritmo;
+
+import java.util.Scanner;
+
+public class BuscaLinear {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int[] numeros = new int[5];
+
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println("Digite um número: ");
+			int numero = sc.nextInt();
+			numeros[i] = numero;
+		}
+
+		for (int i = 0; i < numeros.length; i++) {
+
+			System.out.println((i + 1) + "° " + numeros[i]);
+		}
+		
+		System.out.println("Digite o número a ser buscado: ");
+		int numeroBuscado = sc.nextInt();
+		int encontrado = buscarNumero(numeros, numeroBuscado);
+		
+		System.out.println("O numero foi encontrado: " + encontrado);
+
+		sc.close();
+	}
+	
+	
+	public static int buscarNumero(int[] numeros, int numeroBuscado ) {
+		for(int i = 0; i < numeros.length; i++) {
+			if(numeros[i] == numeroBuscado) {
+				return numeros[i];
+			}
+	}
+		return -1;
+	}
+
+}
