@@ -2,7 +2,7 @@ package br.com.treinaweb.algoritmo;
 
 import java.util.Scanner;
 
-public class BuscaLinear {
+public class Ordenacao {
 
 	public static void main(String[] args) {
 
@@ -36,9 +36,9 @@ public class BuscaLinear {
 
 		sc.close();
 	}
-	
+
 	public static void imprimir(int[] array) {
-		for(int i = 0; i < array.length; i++) {
+		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
 		}
 	}

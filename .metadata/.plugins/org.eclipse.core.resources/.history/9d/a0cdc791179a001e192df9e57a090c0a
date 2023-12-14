@@ -31,16 +31,8 @@ public class BuscaLinear {
 		} else {
 			System.out.println(String.format("O número %d foi encontrado na posição %d%n", alvo, posicaoresultado));
 		}
-		System.out.println("Impressão do vetor: ");
-		imprimir(numeros);
 
 		sc.close();
-	}
-	
-	public static void imprimir(int[] array) {
-		for(int i = 0; i < array.length; i++) {
-			System.out.println(array[i]);
-		}
 	}
 
 }
