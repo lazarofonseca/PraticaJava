@@ -18,6 +18,7 @@ Thumbs.db
 # Logs e arquivos temporários
 *.log
 *.tmp
+*.snap
 
 # Dependências Maven
 /.m2/
