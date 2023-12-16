@@ -1,1 +1,26 @@
-/.metadata/
+.metadata/
+
+# Arquivos e diretórios gerados pelo Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos do diretório bin/
+bin/
+
+# Arquivos do diretório target/
+target/
+
+# Arquivos de configuração específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Dependências Maven
+/.m2/
+
+# Arquivos de build
+build/
