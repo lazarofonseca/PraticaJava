@@ -3,6 +3,7 @@ package br.com.treinaweb.dados.um;
 import java.util.Scanner;
 
 import br.com.treinaweb.dados.um.modelos.Pessoa;
+import br.com.treinaweb.dados.um.vetor.Vetor;
 
 public class Main {
 
@@ -49,9 +50,14 @@ public class Main {
 	}
 	
 	private static void fazerVetor() {
-		Pessoa[] vetorPessoas= new Pessoa[3];
-		vetorPessoas[0] = new Pessoa(1, "TreinaWeb");
-		System.out.println(vetorPessoas[0].getNome());
+		
+		Vetor<Pessoa> vetorPessoas = new Vetor<Pessoa>(3);
+		vetorPessoas.inserirEm(0, new Pessoa(1, "TreinaWeb"));
+		System.out.println(vetorPessoas.recuperar(0).getNome());
+		Vetor<Integer> inteiros = new Vetor<Integer>(2);
+		inteiros.inserirEm(0, 1);
+		System.out.println(inteiros.recuperar(0));
+		
 	}
 
 }
