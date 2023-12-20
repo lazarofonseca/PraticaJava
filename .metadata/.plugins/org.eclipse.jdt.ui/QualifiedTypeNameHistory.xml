@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="br.com.treinaweb.dados.um.modelos.Pessoa"/>
+    <fullyQualifiedTypeName name="br.com.treinaweb.dados.um.vetor.Vetor"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
