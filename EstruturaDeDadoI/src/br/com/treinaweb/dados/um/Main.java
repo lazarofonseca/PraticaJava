@@ -57,7 +57,9 @@ public class Main {
 		vetorPessoas.inserir(new Pessoa(3, "TreinaWeb 3"));
 		vetorPessoas.inserir(new Pessoa(4, "TreinaWeb 4"));
 		vetorPessoas.inserirEm(1, new Pessoa(5, "TreinaWeb 5"));
-		System.out.println(vetorPessoas);
+		//System.out.println(vetorPessoas);
+		
+		vetorPessoas.imprimirVetor();
 	}
 
 }
